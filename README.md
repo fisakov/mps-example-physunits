@@ -36,9 +36,9 @@ Multiplication and division is allowed between any types, the annotated types ar
 
 Examples: 
 
-![](http://www.sciweavers.org/tex2img.php?eq=%5Cmathtt%20%7Btypeof%281%2F2s%29%20%3D%20int%5C%7Bs%5E%7B-1%7D%5C%7D%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![](img/example1.png)
 
-![](http://www.sciweavers.org/tex2img.php?eq=%5Cmathtt%20%7Btypeof%28%281m%2F2s%29%2F3s%29%20%3D%20int%5C%7Bm%5Ccdot%20s%5E%7B-2%7D%5C%7D%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![](img/example2.png)
 
 ### Internal representation
 
@@ -50,9 +50,8 @@ Unit declarations
 The units are declared within a special model root. The unit may be declared either as a basic one or have a unit specification of its own. These are the same unit specification that are used to annotate types and expressions.
 
 
-![](http://www.sciweavers.org/tex2img.php?eq=%24%0A%5Cleft.%0A%5Cbegin%7Barray%7D%20%0A%5Cmathtt%7Bm%7D%20%26%3A%3D%20%5Cdots%20%26%20%5Cmathtt%7B%28meter%29%7D%5C%5C%20%0A%5Cend%7Barray%7D%20%0A%5Cright.%20%0A%24&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
-![](http://www.sciweavers.org/tex2img.php?eq=%24%0A%5Cleft.%0A%5Cbegin%7Barray%7D%20%0A%5Cmathtt%7Bs%7D%20%26%3A%3D%20%5Cdots%20%26%20%5Cmathtt%7B%28second%29%7D%5C%5C%20%0A%5Cend%7Barray%7D%20%0A%5Cright.%20%0A%24&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
-![](http://www.sciweavers.org/tex2img.php?eq=%24%0A%5Cleft.%0A%5Cbegin%7Barray%7D%20%0A%5Cmathtt%7Bmps%7D%20%26%3A%3D%20%5Cmathtt%7Bm%5Ccdot%20s%5E%7B-1%7D%7D%20%26%20%5Cmathtt%7B%28meter%5C%2Cper%5C%2Csecond%29%7D%5C%5C%20%0A%5Cend%7Barray%7D%20%0A%5Cright.%20%0A%24&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![](img/example3.png)
+
 
 License
 =======
