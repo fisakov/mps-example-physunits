@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/mps.example.physunits/mps.example.physunits.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/mps.example.physunits/sandbox/mps.example.physunits.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mps.example.physunits.tests/mps.example.physunits.tests.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
+
