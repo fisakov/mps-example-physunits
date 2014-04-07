@@ -53,6 +53,18 @@ The units are declared within a special model root. The unit may be declared eit
 ![](img/example3.png)
 
 
+Polymorphic typecheking
+=======================
+
+There is a limited support of polymorphism when checking method invocations. The method declaration must be annotated with meta physical unit declaration. 
+
+![](img/example4.png)
+
+Given an annotated method declaration, its return type can be inferred from the types of arguments. 
+
+![](img/example5.png)
+
+
 License
 =======
 
