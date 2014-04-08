@@ -276,7 +276,50 @@
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="9200699520987319679" nodeInfo="nn" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="9200699520987327753" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5263357083583142311" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5263357083583142312" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="qux" />
+            <node role="type" roleId="tpee.5680397130376446158" type="offs.AnnotatedType" typeId="offs.3443993895106669092" id="5263357083583142241" nodeInfo="ig">
+              <node role="primtype" roleId="offs.4570623328296538747" type="tpee.IntegerType" typeId="tpee.1070534370425" id="5263357083583142298" nodeInfo="in" />
+              <node role="spec" roleId="offs.4570623328297000208" type="offs.PhysicalUnitSpecification" typeId="offs.4570623328293472143" id="5263357083583142299" nodeInfo="ng">
+                <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="5263357083583142300" nodeInfo="ng">
+                  <link role="decl" roleId="offs.4570623328292343980" targetNodeId="9069411836912578731" resolveInfo="m" />
+                </node>
+                <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="5263357083583142301" nodeInfo="ng">
+                  <link role="decl" roleId="offs.4570623328292343980" targetNodeId="9069411836912578716" resolveInfo="s" />
+                  <node role="exponent" roleId="offs.4570623328302959128" type="offs.Exponent" typeId="offs.4570623328302959024" id="5263357083583142302" nodeInfo="ng">
+                    <property name="value" nameId="offs.4570623328302959025" value="-1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5263357083583142313" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1895206562888572870" resolveInfo="qux" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="3443993895106620345" resolveInfo="Sample" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="offs.AnnotatedExpression" typeId="offs.4570623328296826154" id="5263357083583142314" nodeInfo="ng">
+                <node role="expr" roleId="offs.4570623328296826206" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5263357083583142315" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="1" />
+                </node>
+                <node role="spec" roleId="offs.9069411836912330758" type="offs.PhysicalUnitSpecification" typeId="offs.4570623328293472143" id="5263357083583142316" nodeInfo="ng">
+                  <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="5263357083583142317" nodeInfo="ng">
+                    <link role="decl" roleId="offs.4570623328292343980" targetNodeId="9069411836912578731" resolveInfo="m" />
+                  </node>
+                </node>
+              </node>
+              <node role="actualArgument" roleId="tpee.1068499141038" type="offs.AnnotatedExpression" typeId="offs.4570623328296826154" id="5263357083583142318" nodeInfo="ng">
+                <node role="expr" roleId="offs.4570623328296826206" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5263357083583142319" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="2" />
+                </node>
+                <node role="spec" roleId="offs.9069411836912330758" type="offs.PhysicalUnitSpecification" typeId="offs.4570623328293472143" id="5263357083583142320" nodeInfo="ng">
+                  <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="5263357083583142321" nodeInfo="ng">
+                    <link role="decl" roleId="offs.4570623328292343980" targetNodeId="9069411836912578716" resolveInfo="s" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1895206562889072198" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="9069411836911935864" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="9069411836911935867" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="avoid_warnings" />
@@ -305,6 +348,9 @@
                 </node>
                 <node role="initValue" roleId="tpee.1154542803372" type="tpee.VariableReference" typeId="tpee.1068498886296" id="75037095811806484" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9200699520987321026" resolveInfo="bar" />
+                </node>
+                <node role="initValue" roleId="tpee.1154542803372" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1895206562890028037" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5263357083583142312" resolveInfo="qux" />
                 </node>
                 <node role="componentType" roleId="tpee.1154542793668" type="tpee.IntegerType" typeId="tpee.1070534370425" id="9069411836911939704" nodeInfo="in" />
               </node>
@@ -358,6 +404,70 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="offs.MetaPhysicalUnitDeclaration" typeId="offs.2012459586590168849" id="9149454717884716965" nodeInfo="ng">
         <node role="unit" roleId="offs.2012459586590170683" type="offs.MetaPhysicalUnit" typeId="offs.2012459586590075362" id="9149454717884716966" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="UNIT" />
+        </node>
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="1895206562888515601" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="1895206562888572870" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="qux" />
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <property name="isFinal" nameId="tpee.1181808852946" value="false" />
+      <property name="isSynchronized" nameId="tpee.4276006055363816570" value="false" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1895206562888554615" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1895206562889000856" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DivExpression" typeId="tpee.1095950406618" id="1895206562889000981" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1895206562889001027" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1895206562889000686" resolveInfo="den" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1895206562889000855" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1895206562889000534" resolveInfo="num" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="offs.AnnotatedType" typeId="offs.3443993895106669092" id="1895206562889000512" nodeInfo="ig">
+        <node role="primtype" roleId="offs.4570623328296538747" type="tpee.IntegerType" typeId="tpee.1070534370425" id="1895206562889000511" nodeInfo="in" />
+        <node role="spec" roleId="offs.4570623328297000208" type="offs.PhysicalUnitSpecification" typeId="offs.4570623328293472143" id="1895206562889000513" nodeInfo="ng">
+          <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="1895206562891382815" nodeInfo="ng">
+            <link role="decl" roleId="offs.4570623328292343980" targetNodeId="1895206562888578233" resolveInfo="N" />
+          </node>
+          <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="1895206562891388713" nodeInfo="ng">
+            <link role="decl" roleId="offs.4570623328292343980" targetNodeId="1895206562888578244" resolveInfo="D" />
+            <node role="exponent" roleId="offs.4570623328302959128" type="offs.Exponent" typeId="offs.4570623328302959024" id="1895206562891391847" nodeInfo="ng">
+              <property name="value" nameId="offs.4570623328302959025" value="-1" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1895206562888554614" nodeInfo="nn" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="offs.MetaPhysicalUnitDeclaration" typeId="offs.2012459586590168849" id="1895206562888578232" nodeInfo="ng">
+        <node role="unit" roleId="offs.2012459586590170683" type="offs.MetaPhysicalUnit" typeId="offs.2012459586590075362" id="1895206562888578233" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="N" />
+        </node>
+        <node role="unit" roleId="offs.2012459586590170683" type="offs.MetaPhysicalUnit" typeId="offs.2012459586590075362" id="1895206562888578244" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="D" />
+        </node>
+      </node>
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1895206562889000534" nodeInfo="ir">
+        <property name="name" nameId="tpck.1169194664001" value="num" />
+        <node role="type" roleId="tpee.5680397130376446158" type="offs.AnnotatedType" typeId="offs.3443993895106669092" id="1895206562889000547" nodeInfo="ig">
+          <node role="primtype" roleId="offs.4570623328296538747" type="tpee.IntegerType" typeId="tpee.1070534370425" id="1895206562889000546" nodeInfo="in" />
+          <node role="spec" roleId="offs.4570623328297000208" type="offs.PhysicalUnitSpecification" typeId="offs.4570623328293472143" id="1895206562889000548" nodeInfo="ng">
+            <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="1895206562889000580" nodeInfo="ng">
+              <link role="decl" roleId="offs.4570623328292343980" targetNodeId="1895206562888578233" resolveInfo="N" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1895206562889000686" nodeInfo="ir">
+        <property name="name" nameId="tpck.1169194664001" value="den" />
+        <node role="type" roleId="tpee.5680397130376446158" type="offs.AnnotatedType" typeId="offs.3443993895106669092" id="1895206562889000711" nodeInfo="ig">
+          <node role="primtype" roleId="offs.4570623328296538747" type="tpee.IntegerType" typeId="tpee.1070534370425" id="1895206562889000710" nodeInfo="in" />
+          <node role="spec" roleId="offs.4570623328297000208" type="offs.PhysicalUnitSpecification" typeId="offs.4570623328293472143" id="1895206562889000712" nodeInfo="ng">
+            <node role="component" roleId="offs.4570623328293472202" type="offs.PhysicalUnitRef" typeId="offs.4570623328292343979" id="1895206562889000744" nodeInfo="ng">
+              <link role="decl" roleId="offs.4570623328292343980" targetNodeId="1895206562888578244" resolveInfo="D" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
