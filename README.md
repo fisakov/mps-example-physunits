@@ -1,7 +1,7 @@
 Physical Units
 ================
 
-This is an example language implementing the idea of having physical units associated with the numeric values to reflect the value dimension. Typing rules prevent from assigning variable a _wrong_ type, that is a type having mismatched unit annotation.
+This is an example language implementing the idea of having physical units associated with the numeric values to reflect the value dimension. Typing rules prevent from assigning a variable a value of _wrong_ type, that is a type having mismatched unit annotation.
 
 Installing
 ----------
@@ -18,8 +18,7 @@ Using
 The language `mps.example.physunits` extends baselanguage. In order to start using it just import this language into your model. 
 
 Unit annotations
-================
-
+----------------
 
 A primitive type can be annotated with unit specification. The unit annotated type is a subtype of the original primitive type, which it keeps as a child element. A numeric expression can also be annotated with a unit specification, which effectively alters its type to be unit annotated.
 
@@ -30,9 +29,9 @@ Typechecking
 
 Type checking of arithmetic operations in presence of types annotated with units is augmented according to the following rules. 
 
-Addition and subtraction is allowed between types with same unit specifications or between unannotated types. Other combinations are forbidden. 
+- Addition and subtraction is allowed between types with same unit specifications or between unannotated types. Other combinations are forbidden. 
 
-Multiplication and division is allowed between any types, the annotated types are transformed according to usual rules. 
+- Multiplication and division is allowed between any types, the annotated types are transformed according to usual rules. 
 
 Examples: 
 
@@ -40,7 +39,29 @@ Examples:
 
 ![](img/example2.png)
 
-### Internal representation
+
+Polymorphic typechecking
+------------------------
+
+There is a limited support of polymorphism when checking method invocations. The method declaration must be annotated with meta physical unit declaration. 
+
+![](img/example4.png)
+
+Given an annotated method declaration, its return type can be inferred from the types of arguments. 
+
+![](img/example5.png)
+
+
+Limitations of typechecking
+---------------------------
+
+This implementation assumes the order of unit components must be the same for two types to be comparable for subtyping. This can be improved in the future. 
+
+The polymorphic typechecking doesn't work with instances of `LocalMethodCall`, because its associated type inference rule has `overrides=true` property and thus can't be extended (true for latest MPS version as of the date of this writing). 
+
+
+Internal representation
+-----------------------
 
 Internally unit specifications are kept as a list of references to unit declarations with associated exponents. 
 
@@ -52,17 +73,6 @@ The units are declared within a special model root. The unit may be declared eit
 
 ![](img/example3.png)
 
-
-Polymorphic typecheking
-=======================
-
-There is a limited support of polymorphism when checking method invocations. The method declaration must be annotated with meta physical unit declaration. 
-
-![](img/example4.png)
-
-Given an annotated method declaration, its return type can be inferred from the types of arguments. 
-
-![](img/example5.png)
 
 
 License
