@@ -428,7 +428,7 @@
     </node>
   </root>
   <root type="tp5g.TestInfo" typeId="tp5g.5097124989038916362" id="9069411836916543039" nodeInfo="ng">
-    <property name="projectPath" nameId="tp5g.5097124989038916363" value="${mps.example.physunit.home}" />
+    <property name="projectPath" nameId="tp5g.5097124989038916363" value="${mps.example.physunits.home}" />
   </root>
   <root type="tp5g.NodesTestCase" typeId="tp5g.1216913645126" id="75037095813490171" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Polymorphic" />
