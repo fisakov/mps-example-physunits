@@ -10,7 +10,7 @@ The project built using [MPS] [1]. Download latest version of MPS [here][2]
 
 After cloning the repository, open the project with MPS and run a full rebuild.
 
-In order to run tests, set the path variable `mps.example.physunit.home` to point to the checkout directory.
+In order to run tests, set the path variable `mps.example.physunits.home` to point to the checkout directory.
 
 Using
 -----
@@ -72,7 +72,6 @@ The units are declared within a special model root. The unit may be declared eit
 
 
 ![](img/example3.png)
-
 
 
 License
