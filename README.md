@@ -57,8 +57,6 @@ Limitations of typechecking
 
 This implementation assumes the order of unit components must be the same for two types to be comparable for subtyping. This can be improved in the future. 
 
-The polymorphic typechecking doesn't work with instances of `LocalMethodCall`, because its associated type inference rule has `overrides=true` property and thus can't be extended (true for latest MPS version as of the date of this writing). 
-
 
 Internal representation
 -----------------------
