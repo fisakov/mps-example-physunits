@@ -6,7 +6,9 @@ This is an example language implementing the idea of having physical units assoc
 Installing
 ----------
 
-The project built using [MPS] [1]. Download latest version of MPS [here][2]
+*UPDATE 7.5.2014*: the master branch has been migrated to [MPS 3.1 EAP 2][3] and is no longer compatible with version 3.0. Use the revision tagged `v0.1-mps30` to open with MPS 3.0. 
+
+The project built using [MPS][1]. Download latest version of MPS [here][2]
 
 After cloning the repository, open the project with MPS and run a full rebuild.
 
@@ -89,3 +91,4 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
   [1]: http://www.jetbrains.com/mps/
   [2]: http://www.jetbrains.com/mps/download/index.html
+  [3]: http://confluence.jetbrains.com/display/MPS/JetBrains+MPS+EAP+Download+Page
