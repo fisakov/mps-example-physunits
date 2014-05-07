@@ -3,6 +3,8 @@ Physical Units
 
 This is an example language implementing the idea of having physical units associated with the numeric values to reflect the value dimension. Typing rules prevent from assigning a variable a value of _wrong_ type, that is a type having mismatched unit annotation.
 
+You can watch a [demo][4] of using this language (thanks to Vaclav Pech who created it).
+
 Installing
 ----------
 
@@ -92,3 +94,4 @@ Unless required by applicable law or agreed to in writing, software distributed 
   [1]: http://www.jetbrains.com/mps/
   [2]: http://www.jetbrains.com/mps/download/index.html
   [3]: http://confluence.jetbrains.com/display/MPS/JetBrains+MPS+EAP+Download+Page
+  [4]: http://youtu.be/ARbb9FiG-RY
