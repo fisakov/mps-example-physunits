@@ -10,7 +10,7 @@ Installing
 
 *UPDATE 7.5.2014*: the master branch has been migrated to [MPS 3.1 EAP 2][3] and is no longer compatible with version 3.0. Use the revision tagged `v0.1-mps30` to open with MPS 3.0. 
 
-The project built using [MPS][1]. Download latest version of MPS [here][2]
+The project is made with [JetBrains MPS][1]. Download latest version of MPS [here][2]
 
 After cloning the repository, open the project with MPS and run a full rebuild.
 
