@@ -8,6 +8,8 @@ You can watch a [demo][4] of using this language (thanks to Vaclav Pech who crea
 Installing
 ----------
 
+*UPDATE 12.12.2014*: the master branch has been migrated to [MPS 3.2 EAP 3][3] and is no longer compatible with version 3.1. Use the revision tagged `v0.2-mps31` to open with MPS 3.1. 
+
 *UPDATE 7.5.2014*: the master branch has been migrated to [MPS 3.1 EAP 2][3] and is no longer compatible with version 3.0. Use the revision tagged `v0.1-mps30` to open with MPS 3.0. 
 
 The project is made with [JetBrains MPS][1]. Download latest version of MPS [here][2]
